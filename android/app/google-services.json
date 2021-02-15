@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "361945381208",
+    "firebase_url": "https://academy-acsolutions-lu.firebaseio.com",
+    "project_id": "academy-acsolutions-lu",
+    "storage_bucket": "academy-acsolutions-lu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361945381208:android:3a0d02a20b855a6d11cd2d",
+        "android_client_info": {
+          "package_name": "lu.acsolutions.flutter_scanreceip_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361945381208-fkuaqa9fokmsp7ntgk3ks8obndggpr6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAcrf45CEK324lWsH1KF1Sip4YTePSo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361945381208-fkuaqa9fokmsp7ntgk3ks8obndggpr6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361945381208:android:ed4373f0bbc1477011cd2d",
+        "android_client_info": {
+          "package_name": "lu.acsolutions.scanreceipts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361945381208-fkuaqa9fokmsp7ntgk3ks8obndggpr6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAcrf45CEK324lWsH1KF1Sip4YTePSo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361945381208-fkuaqa9fokmsp7ntgk3ks8obndggpr6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361945381208:android:283c474ec667553b11cd2d",
+        "android_client_info": {
+          "package_name": "lu.acsolutions.ticketscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361945381208-aat035qsqpd9fdkrdl7rspmhsua8ns3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lu.acsolutions.ticketscan",
+            "certificate_hash": "78c0c3910e3e30aab37e9738e1d8031f9d1b5786"
+          }
+        },
+        {
+          "client_id": "361945381208-fkuaqa9fokmsp7ntgk3ks8obndggpr6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAcrf45CEK324lWsH1KF1Sip4YTePSo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361945381208-fkuaqa9fokmsp7ntgk3ks8obndggpr6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
