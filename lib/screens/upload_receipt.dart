@@ -1,5 +1,4 @@
 //Caution: Only works on Android & iOS platforms
-import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:io';
 import 'package:firebase_core/firebase_core.dart' as firebase_core;
@@ -11,8 +10,8 @@ import 'package:path/path.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:path_provider/path_provider.dart';
 
-final Color yellow = Color(0xFF1BA9FB);
-final Color orange = Color(0xFF1C0696);
+final Color bluelight = Color(0xFF1BA9FB);
+final Color bluedeep = Color(0xFF1C0696);
 
 class UploadingImageToFirebaseStorage extends StatefulWidget {
   @override
@@ -23,32 +22,14 @@ class UploadingImageToFirebaseStorage extends StatefulWidget {
 class _UploadingImageToFirebaseStorageState
     extends State<UploadingImageToFirebaseStorage> {
   bool working = false;
-  // Create the initialization Future outside of `build`:
-
-  // Set default `_initialized` and `_error` state to false
-
-  // Define an async function to initialize FlutterFire
-  void initializeFlutterFire() async {
-    try {
-      // Wait for Firebase to initialize and set `_initialized` state to true
-      await firebase_core.Firebase.initializeApp();
-      setState(() {
-        working = false;
-      });
-    } catch (e) {
-      // Set `_error` state to true if Firebase initialization fails
-      setState(() {});
-    }
-  }
 
   @override
   void initState() {
-    initializeFlutterFire();
+    // initializeFlutterFire();
     super.initState();
   }
 
   File _imageFile;
-  String _imagePath = 'Unknown';
 
   ///NOTE: Only supported on Android & iOS
   ///Needs image_picker plugin {https://pub.dev/packages/image_picker}
@@ -164,7 +145,7 @@ class _UploadingImageToFirebaseStorageState
                     bottomLeft: Radius.circular(50.0),
                     bottomRight: Radius.circular(50.0)),
                 gradient: LinearGradient(
-                    colors: [orange, yellow],
+                    colors: [bluelight, bluelight],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight)),
           ),
@@ -234,6 +215,7 @@ class _UploadingImageToFirebaseStorageState
                 borderRadius: BorderRadius.circular(30.0)),
             child: TextButton(
               onPressed: () {
+                //is working indiocator is on?
                 loadProgress();
                 uploadImageToFirebase(context);
                 // ocrtrigger();
